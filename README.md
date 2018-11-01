@@ -1,7 +1,7 @@
 # compressjpeginpreview
 This quartz filter compresses the JPEG in a PDF, while maintaining usable resolution.  The purpose of this quartz filter is to use it with Apple's Preview.app to quickly reduce the file size of images in PDF's while maintaining legibility.  Apple does have a built-in filter called "Reduce File Size" that has the same purpose, however this filter is too aggressive and converts images to a resolution that is too low.
 
-To install this filter for the currently logged in user, run the below command:
+To install this filter for the currently logged in user, run the below command in Terminal:
 ```
 mkdir -p ~/Library/Filters/ && curl -o ~/Library/Filters/Compress\ JPEG\ images\ in\ PDF.qfilter https://raw.githubusercontent.com/superman-lopez/compressjpeginpreview/master/Compress%20JPEG%20images%20in%20PDF.qfilter
 ```
