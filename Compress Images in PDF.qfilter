@@ -19,6 +19,17 @@
 				<real>0.40</real>
 				<key>ImageCompression</key>
 				<string>ImageJPEGCompress</string>
+				<key>ImageScaleSettings</key>
+				<dict>
+					<key>ImageScaleFactor</key>
+					<real>0.30</real>
+					<key>ImageScaleInterpolate</key>
+					<true/>
+					<key>ImageSizeMax</key>
+					<integer>1080</integer>
+					<key>ImageSizeMin</key>
+					<integer>480</integer>
+				</dict>
 			</dict>
 		</dict>
 	</dict>
